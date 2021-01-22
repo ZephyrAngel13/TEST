@@ -94,7 +94,6 @@ class Router:
 
     def update_routing_table(self, packet: RIPPacket, address = None):
 
-        print("Socket-ul cu adresa IP si portul  " + str(address)+" au trimis date.")
         string_keys = []
 
         if packet == None:
