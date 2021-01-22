@@ -1,12 +1,10 @@
 """
     Starile automatului
 """
-
+from Router import *
+from RIPv2 import *
 import socket
 import time
-
-from RIPv2 import *
-from Router import *
 
 DEBUG = 0
 
