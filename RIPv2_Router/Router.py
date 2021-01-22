@@ -161,9 +161,9 @@ class Router:
         """
         line = "+-----------+----------+-----------+---------------+----------+-------------+"
         print(line)
-        print("|                              Routing Table                                  |")
+        print("|                              Routing Table                                |")
         print(line)
-        print("|Destination  |  Metric  |  NextHop  |  ChangedFlag  |  Garbage |  Timeout(s) |")
+        print("|Destination |  Metric |  NextHop  |  ChangedFlag  |  Garbage |  Timeout(s) |")
         print("+===========+==========+===========+===============+==========+=============+")
 
         for entry in self.routing_table.keys():
